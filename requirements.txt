@@ -1,0 +1,6 @@
+matplotlib==3.4.3
+numpy
+opencv-python-headless
+wget
+selenium
+flask
