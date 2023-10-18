@@ -39,12 +39,12 @@ Before you get started with the Instagram Image Analysis Tool, make sure you hav
 2. **Install Dependencies:**
 
 To set up the required Python libraries and dependencies, create a virtual environment and install the packages listed in the requirements.txt file. Use the following commands:
-## Create a virtual environment
+# Create a virtual environment
 ```bash
 python -m venv venv
 source venv/bin/activate  # On Windows, use: venv\Scripts\activate
 ```
-## Install the required packages
+# Install the required packages
 ```bash
 pip install -r requirements.txt
 ```

@@ -1,0 +1,64 @@
+/* Use the "Lobster" font for the body */
+body {
+    background-color: #222;
+    font-family: 'Lobster', cursive; /* Use the Lobster font for a more feminine style */
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    color: #fff; /* Set text color to white for better contrast */
+}
+
+/* Center the header content */
+header {
+    background-color: #FF5733; /* Use a bold red-orange color for the header */
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.page-title {
+    margin: 0;
+    font-size: 24px;
+    color: #E6014C; /* Set the title color to a bold red */
+}
+
+/* Set h2 elements to light blue */
+h2 {
+    color: #42A3E2;
+}
+
+/* Define different colors for each button by their class */
+.average-color {
+    background-color: #F0C808; /* Change to a bold yellow color */
+}
+
+.average-brightness {
+    background-color: #507AA3; /* Change to a bold blue color */
+}
+
+.red-channel {
+    background-color: #E6014C; /* Keep as bold red */
+}
+
+pie-chart {
+    background-color: #40C1B3; /* Change to a teal color */
+}
+
+.red-vs-green {
+    background-color: #EC8B13; /* Keep as a bold orange color */
+}
+
+/* Style the navigation buttons */
+.nav-button {
+    text-decoration: none;
+    color: #fff;
+    margin: 10px;
+    font-weight: bold;
+    padding: 10px 15px;
+    border-radius: 5px;
+}
+
+/* Hover effect for buttons */
+.nav-button:hover {
+    opacity: 0.8;
+}

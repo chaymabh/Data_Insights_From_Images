@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Image Analysis Charts</title>
+    <link rel="stylesheet" type="css" href="styles.css"> 
+</head>
+<body>
+    <header>
+        <h1 class="page-title">Image Analysis Charts</h1>
+    </header>
+    <nav>
+        <a href="#average_color" class="nav-button average-color">Average Color</a>
+        <a href="#average_brightness" class = "nav-button average-brightness">Average Brightness</a>
+        <a href="#histogram_red_channel" class="nav-button red-channel">Red Channel Histogram</a>
+        <a href="#pie_chart" class="nav-button pie-chart">Color Composition Pie Chart</a>
+        <a href="#scatter_red_vs_green" class="nav-button red-vs-green">Red vs. Green Color Channel</a>
+    </nav>
+
+    <div class="container" id="average_color">
+        <h2>Average Color</h2>
+        <img src="{{ url_for('serve_static', filename='average_color_plot.png') }}" alt="Average Color Plot">
+    </div>
+    <div class="container" id="average_brightness">
+        <h2>Average Brightness</h2>
+        <img src="{{ url_for('serve_static', filename='average_brightness_plot.png') }}" alt="Average Brightness Plot">
+    </div>
+    <div class="container" id="histogram_red_channel">
+        <h2>Red Channel Histogram</h2>
+        <img src="{{ url_for('serve_static', filename='red_channel_histogram.png') }}" alt="Red Channel Histogram">
+    </div>
+    <div class="container" id="pie_chart">
+        <h2>Color Composition Pie Chart</h2>
+        <img src="{{ url_for('serve_static', filename='color_composition_pie_chart.png') }}" alt="Color Composition Pie Chart">
+    </div>
+    <div class="container" id="scatter_red_vs_green">
+        <h2>Red vs. Green Color Channel</h2>
+        <img src="{{ url_for('serve_static', filename='red_vs_green_scatter.png') }}" alt="Red vs. Green Color Channel">
+    </div>
+</body>
+</html>
