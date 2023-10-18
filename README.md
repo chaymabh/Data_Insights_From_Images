@@ -2,15 +2,15 @@
 
 ## Table of Contents
 
-- [Introduction](#introduction)
-- [Features](#features)
-- [Prerequisites](#prerequisites)
-- [Installation](#installation)
-- [Usage](#usage)
-- [Analysis Insights](#analysis-insights)
-- [Screenshots](#screenshots)
-- [Contributing](#contributing)
-- [License](#license)
+- [Introduction](##introduction)
+- [Features](##features)
+- [Prerequisites](##prerequisites)
+- [Installation](##installation)
+- [Usage](##usage)
+- [Analysis Insights](##analysis-insights)
+- [Screenshots](##screenshots)
+- [Contributing](##contributing)
+- [License](##license)
 
 ## Introduction
 
@@ -33,30 +33,28 @@ Before you get started with the Instagram Image Analysis Tool, make sure you hav
 ## Installation
 
 1. **Clone the Repository:**
-   ```bash
-   git clone https://github.com/yourusername/instagram-image-analysis.git
-   ```
+  
 2. **Install Dependencies:**
 
 To set up the required Python libraries and dependencies, create a virtual environment and install the packages listed in the requirements.txt file. Use the following commands:
-# Create a virtual environment
+3. ** Create a virtual environment:**
 ```bash
 python -m venv venv
 source venv/bin/activate  # On Windows, use: venv\Scripts\activate
 ```
-# Install the required packages
+4. **Install the required packages:**
 ```bash
 pip install -r requirements.txt
 ```
-3. **Download ChromeDriver:**
+5. **Download ChromeDriver:**
 
 If you're using the Instagram scraper functionality, you'll need ChromeDriver. Download it from the official website and specify the path to it in your application.
 
-4. **Configure Your Instagram Credentials:**
+6. **Configure Your Instagram Credentials:**
 
 To scrape images from Instagram, you'll need your Instagram username and password. Add them to the `main.py` script.
 
-Usage:
+## Usage:
 
 To run the Instagram Image Analysis Tool, execute the following command: 
 ```bash
