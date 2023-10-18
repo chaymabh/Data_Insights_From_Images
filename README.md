@@ -2,15 +2,15 @@
 
 ## Table of Contents
 
-- [Introduction](##introduction)
-- [Features](##features)
-- [Prerequisites](##prerequisites)
-- [Installation](##installation)
-- [Usage](##usage)
-- [Analysis Insights](##analysis-insights)
-- [Screenshots](##screenshots)
-- [Contributing](##contributing)
-- [License](##license)
+- [Introduction](#introduction)
+- [Features](#features)
+- [Prerequisites](#prerequisites)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Analysis Insights](#analysis-insights)
+- [Screenshots](#screenshots)
+- [Contributing](#contributing)
+- [License](#license)
 
 ## Introduction
 
